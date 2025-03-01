@@ -79,6 +79,7 @@ while True:
             lives -= 1
             if lives == 0:
                 print("You lost!")
+                print("The word was", starting_word)
                 break
             print(hangman[-lives])
         display_word = "".join(list_word)
