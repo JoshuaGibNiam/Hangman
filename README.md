@@ -31,6 +31,7 @@ The word bank is at: `wordbank.csv`
 Author: Joshua Niam [JoshuaGibNiam](https://github.com/JoshuaGibNiam)
 - `README.md` 
 - `hangman.py`
+
 Contributors: Andre LaFlamme [BayanganPikiran](https://github.com/BayanganPikiran)
 - `wordbank.csv`
 
