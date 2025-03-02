@@ -34,7 +34,7 @@ Author: Joshua Niam [JoshuaGibNiam](https://github.com/JoshuaGibNiam)
 
 Contributors: Andre LaFlamme [BayanganPikiran](https://github.com/BayanganPikiran)
 - `wordbank.csv`
-
+- ASCII word art
 ---
 
 Sunday, 2nd of March 2025, 9:15 a.m.
