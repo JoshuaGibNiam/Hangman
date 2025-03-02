@@ -71,10 +71,17 @@ while True:
             print("Letter already chosen / Invalid input. Please try again.")
             guess = input("Guess a letter: ")
         guessed_letters.append(guess)
-        if guess in quiz_word:
-            print("You got it!")
-            list_word[quiz_word.index(guess)] = guess
-        else:
+        count = 0
+        if len(guess) == 1 or guess == quiz_word:
+            for g in list(guess):
+                for x, letter in enumerate(quiz_word):
+                    if g == letter:
+                        if count == 0:
+                            print("You got it!")
+                        list_word[x] = g
+                        count += 1
+
+        if count == 0:
             print("Nuh-uh!")
             lives -= 1
             if lives == 0:
